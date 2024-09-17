@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+font-family: "Young Serif", serif;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+font-family: "Outfit", sans-serif;
+/* - White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%) */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color:hsl(30, 54%, 90%)   ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+
+}
+section{
+    width: 60%;
+    height: 85%;
+    background-color:    hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 90%;
+    height: 30%;
+    margin-top: 15px;
+    border-radius: 10px;
+
+
+}
+.preparation{
+    width: 90%;
+    height: 10%;
+    background-color: hsl(330, 100%, 98%) ;
+}
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+}
+h1{
+   
+    width: 90%;
+    font-family: "Young Serif", serif;
+}
+p{
+    width: 90%;
+    font-family: "Outfit", sans-serif;
+}
+h2{
+    color:hsl(14, 45%, 36%) ;
+    width: 90%;
+    font-family: "Young Serif", serif;
+}
+.inst{
+    list-style-type:decimal
+}
+.inst span{
+    font-weight: 400;
+}
+span{
+    font-weight: bold;
+    font-family: "Young Serif", serif;
+}
+.ingredien1,.ingredien2,.ingredien3,.ingredien4{
+    width: 90%;
+    display: flex;
+   gap: 150px;
+    text-align: start;
+    border-bottom: black;
+}
+.ing{
+    width: 90%;
+}
+.ingredien1 span,.ingredien2 span,.ingredien3 span,.ingredien4 span{
+    color: hsl(332, 51%, 32%);;
+}
+@media (max-width:374px) {
+
+    
+}
